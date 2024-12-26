@@ -1,0 +1,20 @@
+sql_server_1:
+  type: mssql
+  server: (localdb)\test
+  database: cdc_management
+  username: andrew
+  password: "123456789"
+
+# mysql_example:
+#   type: mysql
+#   server: localhost
+#   database: test_db
+#   username: root
+#   password: "password123"
+
+# postgres_example:
+#   type: postgres
+#   server: localhost
+#   database: postgres_db
+#   username: postgres
+#   password: "pgpass123"
